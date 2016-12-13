@@ -11,6 +11,8 @@ g++ testInRefCounter.cpp -o testInRefCounter
 Copy/move the executable to somewhere in your PATH environment variable.
 
 ## Usage example
+Note that ```SNPxref``` is a file that has 2 columns of the same SNP_ID list so they're matched twice.
+
 ```
 $ testInRefCounter SNP_IDs.abg50kASAno30 SNPxref /Volumes/data/m-maps/map.*
            53034 in REF SNP_IDs.abg50kASAno30
