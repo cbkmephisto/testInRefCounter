@@ -76,7 +76,7 @@ int main (const int argc, char** argv)
             if(setRef.find(stmp)!=setRef.end())
             {
                 ++count;
-                // TODO: output matching or unmatched here
+                // OPTIONAL: output matching or unmatched here
                 if(argc==3)
                     matchingIDs.push_back(stmp);
             }
