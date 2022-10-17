@@ -82,7 +82,7 @@ int main (const int argc, char** argv)
             }
         }
         cerr << right << setfill(' ') << setw(16) << tstC << " in TST " << left << setw(48) << argv[i];
-        cerr << setfill(' ') << setw(10) << count << setw(10) << " MATCHES" << endl;
+        cerr << right << setfill(' ') << setw(10) << count << setw(10) << " MATCHES" << endl;
         infs.close();
     }
 
